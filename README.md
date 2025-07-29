@@ -16,35 +16,18 @@ This project aims to predict natural disasters—such as earthquakes, floods, an
 
 ---
 
-## 🗂️ Project Structure
-
-```
-📁 disaster-prediction-ml/
-├── data/                  # Raw and preprocessed datasets
-├── models/                # Trained models and checkpoints
-├── notebook/              # Jupyter notebooks for model training and evaluation
-├── app/                   # Streamlit app files
-├── utils/                 # Helper functions for preprocessing, visualization, etc.
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
-```
-
----
-
 ## 📌 Dataset
 
 - **Source**: Kaggle
 - **Types**: 
-  - Atlantic Hurricane Dataset
-  - Earthquake Dataset (1990–2023)
+  - Pacific Hurricane Dataset
+  - Earthquake Dataset from USCS
   - Flood Risk in India Dataset
 - **Features**:
   - Latitude, Longitude
   - Disaster type
   - Magnitude/Water level
   - Time-based and location-based parameters
-
----
 
 ## 🧪 Models Used
 
@@ -53,9 +36,13 @@ This project aims to predict natural disasters—such as earthquakes, floods, an
 | Classification | Random Forest | Predicts disaster type and risk level |
 | Classification | Decision Tree | Alternative model for interpretability |
 | Regression | Random Forest Regressor | Predicts earthquake magnitude, water levels |
-| Dimensionality Reduction | PCA & LDA | Improves visualization and model performance |
+| Dimensionality Reduction | PCA  | Improves visualization and model performance |""",
 
----
+| Task | Models | Purpose |
+|------|--------|---------|
+| Classification | Random Forest, Gradient Boosting, SVM, Logistic Regression, KNN | Predicts disaster type and risk level |
+| Regression | Random Forest Regressor, XGBoost, Ridge, Lasso, CVR | Predicts earthquake magnitude and flood water levels |
+| Dimensionality Reduction | PCA | Improves visualization and model performance |
 
 ## 📈 Results
 
@@ -121,7 +108,7 @@ pip install -r requirements.txt
 
 ## 🙌 Acknowledgements
 
-- Datasets from Kaggle and UCGS
+- Datasets from Kaggle and UCCS
 - Streamlit for web app interface
 - Scikit-learn for ML models
 - Project guided by academic coursework

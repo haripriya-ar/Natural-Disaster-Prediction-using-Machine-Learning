@@ -41,7 +41,7 @@ This project aims to predict natural disasters—such as earthquakes, floods, an
 | Task | Models | Purpose |
 |------|--------|---------|
 | Classification | Random Forest, Gradient Boosting, SVM, Logistic Regression, KNN | Predicts disaster type and risk level |
-| Regression | Random Forest Regressor, XGBoost, Ridge, Lasso, CVR | Predicts earthquake magnitude and flood water levels |
+| Regression | Random Forest Regressor, XGBoost, Ridge, Lasso, SVR | Predicts earthquake magnitude and flood water levels |
 | Dimensionality Reduction | PCA | Improves visualization and model performance |
 
 ## 📈 Results
